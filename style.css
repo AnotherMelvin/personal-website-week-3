@@ -44,54 +44,127 @@ body {
     padding: 0;
 }
 
-/* top-bar */
+/* header */
 #top-bar {
     text-align: center;
     background-color: #00aaff;
 }
 
 #top-bar img {
-    width: 100px;
+    width: 70px;
 }
 
-/* menu */
 #menu {
     background: rgba(0, 0, 0, 0.5);
-    padding: 15px 0;
+    padding-top: 10px;
+    padding-bottom: 15px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .option a {
     color: white;
     text-decoration: none;
     font-family: "steelRegular";
-    font-size: 30pt;
+    font-size: 20pt;
 }
 
-/* footer */
-footer {
+/* banner */
+#banner {
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
-.bottom-wrapper {
+#banner h1 {
+    font-family: "steelBold";
+    font-size: 150pt;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#banner h3 {
+    font-family: "steelRegular";
+    font-size: 50pt;
+    font-weight: lighter;
+    margin-top: 0;
+}
+
+/* content */
+#content {
+    text-align: center;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#content h1 {
+    font-family: "steelExtraBold";
+    text-decoration: underline;
+    font-size: 100pt;
+    margin: 0;
+    padding: 80px 0;
+}
+
+#content h2 {
+    background-color: #ccffff;
+    font-family: "steelBold";
+    font-size: 50pt;
+    margin: 0;
+    padding: 30px 0;
+}
+
+#content-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+.box-container {
+    text-align: center;
+    background-color: #00ff99;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.box-container img {
+    width: 150px;
+    margin: 0;
+}
+
+.box-container h3 {
+    font-family: "steelBold";
+    text-decoration: underline;
+    font-size: 50pt;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.box-container p {
+    font-family: "steelRegular";
+    font-size: 20pt;
+    margin: 0;
+    padding-top: 20px;
+}
+
+/* footer */
+#footer {
     background-color: #00aaff;
     display: flex;
     justify-content: center;
     height: 60px;
+    margin: 0;
 }
 
-.bottom-wrapper p {
+#footer p {
     color: white;
     font-family: "steelRegular";
     font-size: 25px;
     margin: 0;
-    padding-top: 13px;
+    padding-top: 14px;
 }
 
-.bottom-wrapper a {
+#footer a {
     text-decoration: none;
     margin: 0;
 }
@@ -99,11 +172,11 @@ footer {
 .instagram img {
     width: 30px;
     margin-left: 13px;
-    padding-top: 13px;
+    padding-top: 14px;
 }
 
 .youtube img {
     width: 40px;
     margin-left: 13px;
-    padding-top: 9px;
+    padding-top: 10px;
 }
