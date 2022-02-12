@@ -1,0 +1,109 @@
+/* fonts */
+@font-face {
+    font-family: "steelBoldItalic";
+    src: url(fonts/steelfish\ bd\ it.ttf);
+}
+
+@font-face {
+    font-family: "steelBold";
+    src: url(fonts/steelfish\ bd.ttf);
+}
+
+@font-face {
+    font-family: "steelExtraBoldItalic";
+    src: url(fonts/steelfish\ eb\ it.ttf);
+}
+
+@font-face {
+    font-family: "steelExtraBold";
+    src: url(fonts/steelfish\ eb.ttf);
+}
+
+@font-face {
+    font-family: "steelOutline";
+    src: url(fonts/steelfish\ outline.ttf);
+}
+
+@font-face {
+    font-family: "steelRegularItalic";
+    src: url(fonts/steelfish\ rg\ it.ttf);
+}
+
+@font-face {
+    font-family: "steelRegular";
+    src: url(fonts/steelfish\ rg.ttf);
+}
+
+/* body */
+body {
+    background-image: url("media/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* top-bar */
+#top-bar {
+    text-align: center;
+    background-color: #00aaff;
+}
+
+#top-bar img {
+    width: 100px;
+}
+
+/* menu */
+#menu {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.option a {
+    color: white;
+    text-decoration: none;
+    font-family: "steelRegular";
+    font-size: 30pt;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-wrapper {
+    background-color: #00aaff;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.bottom-wrapper p {
+    color: white;
+    font-family: "steelRegular";
+    font-size: 25px;
+    margin: 0;
+    padding-top: 13px;
+}
+
+.bottom-wrapper a {
+    text-decoration: none;
+    margin: 0;
+}
+
+.instagram img {
+    width: 30px;
+    margin-left: 13px;
+    padding-top: 13px;
+}
+
+.youtube img {
+    width: 40px;
+    margin-left: 13px;
+    padding-top: 9px;
+}
