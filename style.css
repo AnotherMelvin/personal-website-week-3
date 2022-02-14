@@ -147,6 +147,143 @@ body {
     padding-top: 20px;
 }
 
+/* creation-content */
+#creation-content {
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#creation-content h1 {
+    font-family: "steelBold";
+    font-size: 150pt;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+
+#creation-window {
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0 100px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+#creation-window h1 {
+    color: white;
+    font-weight: lighter;
+    font-family: "steelRegular";
+    text-decoration: underline;
+    font-size: 70pt;
+    margin-bottom: 50px;
+}
+
+#creation-window h2 {
+    color: white;
+    font-weight: lighter;
+    font-family: "steelRegular";
+    text-decoration: underline;
+    font-size: 70pt;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+#picture {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.picture img {
+    border-radius: 10px;
+    width: 250px;
+    margin: 0 20px;
+}
+
+.picture a {
+    text-decoration: none;
+}
+
+.picture a img {
+    width: 250px;
+}
+
+.gallery-top {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gallery-bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gallery-top img {
+    border-radius: 10px;
+    width: 250px;
+    margin-bottom: 50px;
+}
+
+.gallery-bottom img {
+    border-radius: 10px;
+    width: 250px;
+}
+
+
+/* about-content */
+#about-content h1 {
+    text-align: center;
+    font-family: "steelBold";
+    font-size: 150pt;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#about-window {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.profile img {
+    width: 250px;
+    padding-top: 40px;
+    padding-right: 80px;
+}
+
+.data {
+    font-family: "steelRegular";
+    font-size: 20pt;
+    padding-top: 40px;
+}
+
+/* contact-content */
+#contact-content {
+    text-align: center;
+}
+
+input[type="text"] {
+    text-align: center;
+}
+
+.textbox textarea {
+    text-align: center;
+}
+
+input[type="submit"] {
+    font-family: "steelBold";
+}
+
 /* footer */
 #footer {
     background-color: #00aaff;
