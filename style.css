@@ -67,6 +67,11 @@ body {
     text-decoration: none;
     font-family: "steelRegular";
     font-size: 20pt;
+    padding: 0 30px;
+}
+
+.option:hover {
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 /* banner */
@@ -270,18 +275,73 @@ body {
 /* contact-content */
 #contact-content {
     text-align: center;
+    padding-bottom: 100px;
+}
+
+#contact-content h1 {
+    font-family: "steelBold";
+    font-size: 100pt;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+#contact-window {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 input[type="text"] {
     text-align: center;
+    font-family: "steelRegular";
+    border-style: none;
+    border-radius: 5px;
+    font-size: 16pt;
+}
+
+.name {
+    margin-bottom: 10px;
+}
+
+.name input[type="text"] {
+    padding: 5px 71px;
+}
+
+.email {
+    margin-bottom: 10px;
+}
+
+.email input[type="text"] {
+    padding: 5px 210px;
+}
+
+.textbox {
+    margin-bottom: 10px;
 }
 
 .textbox textarea {
     text-align: center;
+    font-family: "steelRegular";
+    border-radius: 5px;
+    border-style: none;
+    font-size: 18pt;
 }
 
-input[type="submit"] {
+button[type="submit"] {
+    background-color: #00ff99;
     font-family: "steelBold";
+    border-radius: 10px;
+    border-style: none;
+    font-size: 30pt;
+    padding: 10px 30px;
 }
 
 /* footer */
